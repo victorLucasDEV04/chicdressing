@@ -1,0 +1,165 @@
+/*
+Theme Name:		 chicdressing
+Theme URI:		 http://childtheme-generator.com/
+Description:	 chicdressing is a child theme of Ashe, created by ChildTheme-Generator.com
+Author:			 Chic Dressing
+Author URI:		 http://childtheme-generator.com/
+Template:		 ashe
+Version:		 1.0.0
+Text Domain:	 chicdressing
+*/
+
+
+/*
+    Add your custom styles here
+*/
+
+
+body .page-content, .page-content select, .page-content input, .page-content textarea, .page-content .post-author a, .page-content .ashe-widget a, .page-content .comment-author {
+    color: black !important;
+    font-size: 14px;
+}
+
+#main-menu li a{
+  color: black !important;
+}
+#main-menu li a:hover{
+  color: #ca9b52!important;
+}
+.widget_wysija input{
+color:white !important ;
+}
+.post-categories a {
+  color:black !important;
+ 
+}
+.post-categories a:hover{
+  color: #ca9b52 !important;
+}
+.read-more a {
+  color: white;
+  background-color: #333333;
+}
+div.rpwwt-post-categories, .post-date, .post-categories {
+  color: #333333 !important;
+}
+.rpwwt-post-title :hover{
+color: #ca9b52 !important;
+}
+
+ul.products li.product .button{
+  color: #333333!important;
+}
+ul.products li.product .button:hover{
+  color: #ca9b52 !important;
+}
+
+body .header-logo a{
+    color: white;
+    text-shadow: 2px 3px 5px #d0527a;
+    transform: rotate(-9deg);
+}
+.text-center{
+    text-align:center;
+}
+
+.chic-bouton{
+    color: #ffffff;
+    background-color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 14px;
+}
+
+#featured-slider{
+    margin-bottom:30px;
+}
+#chic-products{
+    padding:0 40px;
+}
+.chic-title{
+    font-family: 'Kalam';
+    font-size: 52px;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    transform: rotate(-2deg);
+    margin:30px 40px;
+    text-align:center;
+    color: #9d4c64 !important;
+    line-height: 48px;
+}
+#chic-products ul.products li.product{
+    background: #f6f6f6;
+    padding-bottom: 20px;
+}
+
+/* playfair-display-regular - cyrillic_latin_latin-ext_vietnamese */
+@font-face {
+    font-display: swap; 
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/playfair-display-v30-cyrillic_latin_latin-ext_vietnamese-regular.woff2') format('woff2');
+  }
+  
+  /* playfair-display-700 - cyrillic_latin_latin-ext_vietnamese */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/playfair-display-v30-cyrillic_latin_latin-ext_vietnamese-700.woff2') format('woff2'); 
+  }
+  
+  
+  
+  /* open-sans-regular - cyrillic_cyrillic-ext_greek_greek-ext_hebrew_latin_latin-ext_vietnamese */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/open-sans-v35-cyrillic_cyrillic-ext_greek_greek-ext_hebrew_latin_latin-ext_vietnamese-regular.woff2') format('woff2'); 
+  }
+  
+  /* open-sans-italic - cyrillic_cyrillic-ext_greek_greek-ext_hebrew_latin_latin-ext_vietnamese */
+  @font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url('fonts/open-sans-v35-cyrillic_cyrillic-ext_greek_greek-ext_hebrew_latin_latin-ext_vietnamese-italic.woff2') format('woff2'); 
+  }
+  
+  /* open-sans-600 - cyrillic_cyrillic-ext_greek_greek-ext_hebrew_latin_latin-ext_vietnamese */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('fonts/open-sans-v35-cyrillic_cyrillic-ext_greek_greek-ext_hebrew_latin_latin-ext_vietnamese-600.woff2') format('woff2'); 
+  }
+  
+  /* open-sans-700 - cyrillic_cyrillic-ext_greek_greek-ext_hebrew_latin_latin-ext_vietnamese */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/open-sans-v35-cyrillic_cyrillic-ext_greek_greek-ext_hebrew_latin_latin-ext_vietnamese-700.woff2') format('woff2'); 
+  }
+  
+  
+  /* kalam-regular - devanagari_latin_latin-ext */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/kalam-v16-devanagari_latin_latin-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
